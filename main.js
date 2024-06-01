@@ -12,7 +12,7 @@ function displayCityName() {
             // console.log(data);
             // 
             var temp = document.getElementById("temperature");
-            temp.innerHTML = `${data.current.temp_c} cْ`;
+            temp.innerHTML = `${data.current.temp_c} C&deg;`;
             // 
             var icon = document.getElementById("weather-icon");
             icon.src = data.current.condition.icon
